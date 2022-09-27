@@ -2,8 +2,7 @@
   <form class="filters" [formGroup]="formGroup">
     <div class="form__item">
       Отфильтровать по:
-      <span *ngFor="let type of types">
-        <label>{{ type?.value }}</label>
+      <div *ngFor="let type of types">
         <input
           type="radio"
           [value]="type?.value"
@@ -12,7 +11,8 @@
           class="radio-button mt-8"
           (change)="onTypeChange(type?.value)"
         />
-      </span>
+        <label>{{ type?.value }}</label>
+      </div>
     </div>
 
     <div class="form__item">
