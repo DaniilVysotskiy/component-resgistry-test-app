@@ -1,0 +1,78 @@
+<section class="form">
+  <form class="filters" [formGroup]="formGroup">
+    <div class="form__item">
+      Отфильтровать по:
+      <span *ngFor="let type of types">
+        <label>{{ type?.value }}</label>
+        <input
+          type="radio"
+          [value]="type?.value"
+          [checked]="type?.value === formGroup.get('type').value"
+          name="type"
+          class="radio-button mt-8"
+          (change)="onTypeChange(type?.value)"
+        />
+      </span>
+    </div>
+
+    <div class="form__item">
+      Введите {{ formGroup.get('type').value }} через запятую:
+      <div class="flex-box mt-8">
+        <input
+          class="search"
+          [formControlName]="'searchInput'"
+          (keyup.Enter)="onSubmit(formGroup.value)"
+        />
+        <button class="submit-button ml-12" (click)="onSubmit(formGroup.value)">
+          🔎Поиск
+        </button>
+      </div>
+    </div>
+  </form>
+
+  <section class="data">
+    <div class="form__item flex-box">
+      <button color="white" (click)="handleAccordionState(true)">
+        ▼Развернуть все
+      </button>
+      <button class="ml-12" color="white" (click)="handleAccordionState(false)">
+        ▲Свернуть все
+      </button>
+      <button class="copy-button" color="white" (click)="onCopy()">
+        {{ copyButtonLabel }}
+      </button>
+    </div>
+
+    <div class="form__item" *ngIf="data$ | async as data; else loading">
+      <small
+        >Всего услуг - {{ data?.totalServices || '0' }} шт., компонентов -
+        {{ data?.totalComponents || '0' }} шт.</small
+      >
+
+      <section>
+        <div
+          type="accordion"
+          class="mt-8 mb-8 block"
+          *ngFor="let service of data?.services"
+        >
+          <h5>{{ service.serviceId }}</h5>
+          <small>{{ service.serviceName }}</small>
+          <div><a [href]="service.serviceId" target="_blank">[JSON]</a></div>
+          <ul *ngFor="let component of service.components">
+            <li>
+              <b
+                ><a [href]="component.componentType" target="_blank">{{
+                  component.componentType
+                }}</a></b
+              >: {{ component.amount || '0' }} шт.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </section>
+</section>
+
+<ng-template #loading>
+  <div>Загрузка...</div>
+</ng-template>

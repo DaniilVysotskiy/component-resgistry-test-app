@@ -1,0 +1,824 @@
+{
+  "services": [
+    {
+      "serviceId": "10000000666",
+      "serviceName": "Автотестирование вёрстки",
+      "components": [
+        {
+          "componentType": "InfoScr",
+          "amount": 41
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "serviceId": "10000000701",
+      "serviceName": "Переход из атомарных в комплексную",
+      "components": [
+        {
+          "componentType": "Redirect",
+          "amount": 3
+        },
+        {
+          "componentType": "RestCall",
+          "amount": 1
+        },
+        {
+          "componentType": "ValueCalculator",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "10000000702",
+      "serviceName": "Переход из атомарных в комплексную",
+      "components": [
+        {
+          "componentType": "Redirect",
+          "amount": 3
+        },
+        {
+          "componentType": "RestCall",
+          "amount": 1
+        },
+        {
+          "componentType": "ValueCalculator",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "10000000703",
+      "serviceName": "Переход из атомарных в комплексную",
+      "components": [
+        {
+          "componentType": "Redirect",
+          "amount": 3
+        },
+        {
+          "componentType": "RestCall",
+          "amount": 1
+        },
+        {
+          "componentType": "ValueCalculator",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "10000000706",
+      "serviceName": "Регистрация расторжения брака",
+      "components": [
+        {
+          "componentType": "CheckBox",
+          "amount": 2
+        },
+        {
+          "componentType": "CityInput",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalUserData",
+          "amount": 3
+        },
+        {
+          "componentType": "ConfirmPersonalUserEmail",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserPhone",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserRegReadOnlyAddr",
+          "amount": 2
+        },
+        {
+          "componentType": "FieldList",
+          "amount": 2
+        },
+        {
+          "componentType": "GFieldList",
+          "amount": 2
+        },
+        {
+          "componentType": "GInfoScr",
+          "amount": 19
+        },
+        {
+          "componentType": "GLookup",
+          "amount": 2
+        },
+        {
+          "componentType": "HtmlString",
+          "amount": 1
+        },
+        {
+          "componentType": "InfoScr",
+          "amount": 9
+        },
+        {
+          "componentType": "InvitationError",
+          "amount": 1
+        },
+        {
+          "componentType": "LabelSection",
+          "amount": 1
+        },
+        {
+          "componentType": "MapService",
+          "amount": 1
+        },
+        {
+          "componentType": "MaritalStatusInput",
+          "amount": 1
+        },
+        {
+          "componentType": "PaymentScr",
+          "amount": 2
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 11
+        },
+        {
+          "componentType": "Redirect",
+          "amount": 1
+        },
+        {
+          "componentType": "SignAppLink",
+          "amount": 1
+        },
+        {
+          "componentType": "SnilsInput",
+          "amount": 2
+        },
+        {
+          "componentType": "StringInput",
+          "amount": 5
+        },
+        {
+          "componentType": "TimeSlot",
+          "amount": 1
+        },
+        {
+          "componentType": "Timer",
+          "amount": 4
+        },
+        {
+          "componentType": "ValueCalculator",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "10000000724",
+      "serviceName": "Регистрация по месту жительства ребенка до 14 лет онлайн",
+      "components": [
+        {
+          "componentType": "ChildrenList",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmChildData",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalUserData",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalUserEmail",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalUserPhone",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalUserRegAddr",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalUserRegReadOnlyAddr",
+          "amount": 1
+        },
+        {
+          "componentType": "DateInput",
+          "amount": 2
+        },
+        {
+          "componentType": "DropDown",
+          "amount": 1
+        },
+        {
+          "componentType": "DropDownDepts",
+          "amount": 1
+        },
+        {
+          "componentType": "FileUploadComponent",
+          "amount": 4
+        },
+        {
+          "componentType": "HtmlString",
+          "amount": 1
+        },
+        {
+          "componentType": "InfoScr",
+          "amount": 6
+        },
+        {
+          "componentType": "LabelSection",
+          "amount": 2
+        },
+        {
+          "componentType": "Lookup",
+          "amount": 3
+        },
+        {
+          "componentType": "PersonInfo",
+          "amount": 1
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 6
+        },
+        {
+          "componentType": "RadioInput",
+          "amount": 4
+        },
+        {
+          "componentType": "StringInput",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "serviceId": "10000000777",
+      "serviceName": "Управление полисом ОМС",
+      "components": [
+        {
+          "componentType": "AddressInput",
+          "amount": 4
+        },
+        {
+          "componentType": "BackRestCall",
+          "amount": 2
+        },
+        {
+          "componentType": "ChildrenList",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmChildData",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalPolicy",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserData",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserEmail",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserPhone",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserRegReadOnlyAddr",
+          "amount": 2
+        },
+        {
+          "componentType": "DateInput",
+          "amount": 1
+        },
+        {
+          "componentType": "InfoScr",
+          "amount": 15
+        },
+        {
+          "componentType": "Lookup",
+          "amount": 4
+        },
+        {
+          "componentType": "MapService",
+          "amount": 2
+        },
+        {
+          "componentType": "PersonInfo",
+          "amount": 1
+        },
+        {
+          "componentType": "PhotoUploadComponent",
+          "amount": 4
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 12
+        },
+        {
+          "componentType": "RadioInput",
+          "amount": 2
+        },
+        {
+          "componentType": "Redirect",
+          "amount": 1
+        },
+        {
+          "componentType": "RestCall",
+          "amount": 2
+        },
+        {
+          "componentType": "StringInput",
+          "amount": 5
+        },
+        {
+          "componentType": "ValueCalculator",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "10000000800",
+      "serviceName": "Направление отчета операторов",
+      "components": [
+        {
+          "componentType": "ConfirmLegalData",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserRegReadOnlyAddr",
+          "amount": 1
+        },
+        {
+          "componentType": "DropDown",
+          "amount": 2
+        },
+        {
+          "componentType": "FileUploadComponent",
+          "amount": 1
+        },
+        {
+          "componentType": "InfoScr",
+          "amount": 5
+        },
+        {
+          "componentType": "LabelSection",
+          "amount": 14
+        },
+        {
+          "componentType": "PguEsepCertInfo",
+          "amount": 1
+        },
+        {
+          "componentType": "PguEsepSign",
+          "amount": 2
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 3
+        },
+        {
+          "componentType": "RadioInput",
+          "amount": 1
+        },
+        {
+          "componentType": "RegistrationLegalAddrReadOnly",
+          "amount": 1
+        },
+        {
+          "componentType": "StringInput",
+          "amount": 35
+        },
+        {
+          "componentType": "ValueCalculator",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "10000026568",
+      "serviceName": "Получение документов для новорождённого",
+      "components": [
+        {
+          "componentType": "AddressInput",
+          "amount": 1
+        },
+        {
+          "componentType": "CheckBox",
+          "amount": 2
+        },
+        {
+          "componentType": "CityInput",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalUserData",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserPhone",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserRegReadOnlyAddr",
+          "amount": 3
+        },
+        {
+          "componentType": "DateInput",
+          "amount": 2
+        },
+        {
+          "componentType": "FieldList",
+          "amount": 4
+        },
+        {
+          "componentType": "FileUploadComponent",
+          "amount": 1
+        },
+        {
+          "componentType": "GLookup",
+          "amount": 2
+        },
+        {
+          "componentType": "InfoScr",
+          "amount": 26
+        },
+        {
+          "componentType": "InvitationError",
+          "amount": 1
+        },
+        {
+          "componentType": "LabelSection",
+          "amount": 10
+        },
+        {
+          "componentType": "Lookup",
+          "amount": 3
+        },
+        {
+          "componentType": "MapService",
+          "amount": 3
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 8
+        },
+        {
+          "componentType": "SnilsInput",
+          "amount": 1
+        },
+        {
+          "componentType": "StringInput",
+          "amount": 21
+        },
+        {
+          "componentType": "TimeSlot",
+          "amount": 1
+        },
+        {
+          "componentType": "Timer",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "1953559142",
+      "serviceName": "Получение eFan-ID (индивидуальная заявка)",
+      "components": [
+        {
+          "componentType": "AddressInput",
+          "amount": 1
+        },
+        {
+          "componentType": "BackRestCall",
+          "amount": 1
+        },
+        {
+          "componentType": "CalendarInput",
+          "amount": 4
+        },
+        {
+          "componentType": "CheckBox",
+          "amount": 4
+        },
+        {
+          "componentType": "ConfirmPersonalUserData",
+          "amount": 3
+        },
+        {
+          "componentType": "ConfirmPersonalUserEmail",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserPhone",
+          "amount": 3
+        },
+        {
+          "componentType": "ConfirmPersonalUserRegReadOnlyAddr",
+          "amount": 1
+        },
+        {
+          "componentType": "DateInput",
+          "amount": 10
+        },
+        {
+          "componentType": "DocInput",
+          "amount": 8
+        },
+        {
+          "componentType": "DropDown",
+          "amount": 4
+        },
+        {
+          "componentType": "InfoScr",
+          "amount": 10
+        },
+        {
+          "componentType": "Lookup",
+          "amount": 2
+        },
+        {
+          "componentType": "MultipleChoiceDictionary",
+          "amount": 1
+        },
+        {
+          "componentType": "PhotoUploadComponent",
+          "amount": 2
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 4
+        },
+        {
+          "componentType": "RadioInput",
+          "amount": 2
+        },
+        {
+          "componentType": "Redirect",
+          "amount": 2
+        },
+        {
+          "componentType": "RepeatableFields",
+          "amount": 1
+        },
+        {
+          "componentType": "RestCall",
+          "amount": 1
+        },
+        {
+          "componentType": "StringInput",
+          "amount": 15
+        },
+        {
+          "componentType": "ValueCalculator",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "445566619",
+      "serviceName": "Экспертиза промышленной безопасности",
+      "components": [
+        {
+          "componentType": "ConfirmLegalData",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmLegalEmail",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmLegalPhone",
+          "amount": 1
+        },
+        {
+          "componentType": "Dictionary",
+          "amount": 2
+        },
+        {
+          "componentType": "FileUploadComponent",
+          "amount": 1
+        },
+        {
+          "componentType": "InfoScr",
+          "amount": 4
+        },
+        {
+          "componentType": "LabelSection",
+          "amount": 1
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 1
+        },
+        {
+          "componentType": "RegistrationLegalAddr",
+          "amount": 1
+        },
+        {
+          "componentType": "StringInput",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "60009969",
+      "serviceName": "Регистрация в качестве налогоплательщика налога на профессиональный доход",
+      "components": [
+        {
+          "componentType": "ConfirmPersonalUserData",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserPhone",
+          "amount": 1
+        },
+        {
+          "componentType": "FileUploadComponent",
+          "amount": 1
+        },
+        {
+          "componentType": "InfoScr",
+          "amount": 4
+        },
+        {
+          "componentType": "LabelSection",
+          "amount": 1
+        },
+        {
+          "componentType": "Lookup",
+          "amount": 1
+        },
+        {
+          "componentType": "PersonUserInn",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "60010066",
+      "serviceName": "Оплата патента на работу для иностранцев",
+      "components": [
+        {
+          "componentType": "AddressInput",
+          "amount": 1
+        },
+        {
+          "componentType": "BillInfo",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmAddress",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalUserData",
+          "amount": 2
+        },
+        {
+          "componentType": "ConfirmPersonalUserRegAddr",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalUserRegReadOnlyAddr",
+          "amount": 1
+        },
+        {
+          "componentType": "DropDown",
+          "amount": 1
+        },
+        {
+          "componentType": "InfoScr",
+          "amount": 5
+        },
+        {
+          "componentType": "LabelSection",
+          "amount": 4
+        },
+        {
+          "componentType": "PaymentScr",
+          "amount": 2
+        },
+        {
+          "componentType": "PaymentTypeSelector",
+          "amount": 2
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 3
+        },
+        {
+          "componentType": "Redirect",
+          "amount": 1
+        },
+        {
+          "componentType": "RestCall",
+          "amount": 2
+        },
+        {
+          "componentType": "ValueCalculator",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "60010130",
+      "serviceName": "Снятие с учета в качестве самозанятого",
+      "components": [
+        {
+          "componentType": "InfoScr",
+          "amount": 4
+        },
+        {
+          "componentType": "Lookup",
+          "amount": 1
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "serviceId": "60010153",
+      "serviceName": "Получение списка ИП из банка данных",
+      "components": [
+        {
+          "componentType": "ChildrenList",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmChildData",
+          "amount": 4
+        },
+        {
+          "componentType": "ConfirmLegalData",
+          "amount": 1
+        },
+        {
+          "componentType": "ConfirmPersonalUserData",
+          "amount": 1
+        },
+        {
+          "componentType": "DateInput",
+          "amount": 3
+        },
+        {
+          "componentType": "DocInput",
+          "amount": 2
+        },
+        {
+          "componentType": "InfoScr",
+          "amount": 2
+        },
+        {
+          "componentType": "LabelSection",
+          "amount": 1
+        },
+        {
+          "componentType": "QuestionScr",
+          "amount": 9
+        },
+        {
+          "componentType": "RadioInput",
+          "amount": 3
+        },
+        {
+          "componentType": "Redirect",
+          "amount": 1
+        },
+        {
+          "componentType": "RegistrationLegalAddr",
+          "amount": 1
+        },
+        {
+          "componentType": "RestCall",
+          "amount": 1
+        },
+        {
+          "componentType": "SnilsInput",
+          "amount": 3
+        },
+        {
+          "componentType": "StringInput",
+          "amount": 11
+        },
+        {
+          "componentType": "ValueCalculator",
+          "amount": 2
+        }
+      ]
+    }
+  ],
+  "totalServices": 15,
+  "totalComponents": 440
+}
